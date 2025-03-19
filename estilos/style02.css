@@ -7,43 +7,24 @@
 
 #body02 {
     min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
-    display: flex;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-    flex-direction: column;
     background-image: url('/imagens/inicio.png');
     background-size: cover; /* Faz a imagem preencher toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
+
 }
-
-.main-menu {
-    margin: 23px;
-}
-
-
-a {
-    border-radius: 10px;
-    background-color: rgb(241, 220, 213);
-    padding: 13px;
-    border: solid 3px #c8652d;
-    color: black;
-    
-}
-
 
 #container {
     display: flex;
-    align-items: top;
-    padding:100px;
-    background-color: rgb(97, 53, 43);
-    width: 1000px;
-    height: 400px;
-    border-radius: 20px;
-    border: solid 3px rgb(200, 101, 45);
-    color: white;
+    flex-direction: column;
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+
+
+button {
+    height: 50px;
+    width: 350px;
 }
 
 footer {

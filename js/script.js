@@ -24,7 +24,7 @@ function username() {
         alert("Ei, aventureiro(a), você precisa dizer seu nome antes de entrar!");
     } else {
         alert(`${userName}? Quem se chama assim, com cerveja pode entrar aqui.`);
-        window.location.href = '/index.html'; // Redireciona para a página principal
+        window.location.href = '/html/menus.html'; // Redireciona para a página principal
     }
 }
 

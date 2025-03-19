@@ -8,7 +8,7 @@
 #body01 {
     height: 100vh;
     display: flex;
-    background-image: url('/images/inicio.png');
+    background-image: url('/imagens/inicio.png');
     align-items: center;
     justify-content: center;
     justify-items: center;
