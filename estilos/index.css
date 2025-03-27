@@ -38,7 +38,7 @@ input:focus {
     height: 35px;
 }
 
-#ok:hover {
+#btn:hover {
     background-color: rgba(138, 79, 66, 0.747);
 }
 
