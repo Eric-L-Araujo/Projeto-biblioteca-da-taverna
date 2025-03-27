@@ -30,3 +30,22 @@ body {
     margin-bottom: 20px;
     text-align: center;
 }
+
+.links {
+    border-radius: 10px;
+    background-color: rgb(241, 220, 213);
+    padding: 13px;
+    border: solid 3px #c8652d;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+        
+}
+
+.links:hover{
+    transform: scale(1.1);
+    background-color: rgb(97, 53, 43);
+     /* Transição suave de 0.3 segundos para background-color e transform */
+    color: aliceblue;
+
+}
