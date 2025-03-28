@@ -14,11 +14,12 @@ h1 {
     font-style: italic;
 }
 
-p {
+section > p {
     padding: 5px;
     font-size: 18px;
 }
-
+/* 
+/* PAGINAS */
 .container {
     padding: 50px;
     display: flex;
@@ -26,10 +27,23 @@ p {
     flex-direction: column;
     background-color: rgb(247, 232, 212);
     width: 1000px;
-    max-height: 1000px;
+    max-height: 800px;
     border-radius: 20px;
     border: solid 3px rgb(200, 101, 45);
     color: rgb(56, 32, 15);
-}
+} 
+*/
 
+/* MENUS */
+#container {
+    display: flex;
+    align-items: top;
+    padding:100px;
+    background-color: rgb(97, 53, 43);
+    width: 1000px;
+    height: 400px;
+    border-radius: 20px;
+    border: solid 3px rgb(200, 101, 45);
+    color: white;
+}
 
