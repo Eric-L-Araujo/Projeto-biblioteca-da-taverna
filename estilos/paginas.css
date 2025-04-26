@@ -21,17 +21,17 @@ section > p {
 /* PAGINAS */
 .container {
     padding: 50px;
-    display: flex;
+    /* display: flex
+; */
     align-items: top;
     flex-direction: column;
     background-color: rgb(247, 232, 212);
-    width: 1000px;
-    max-height: 800px;
+    width: 70%;
+    /* max-height: 800px; */
     border-radius: 20px;
     border: solid 3px rgb(200, 101, 45);
     color: rgb(56, 32, 15);
-} 
-*/
+}
 
 /* MENUS */
 #container {
