@@ -1,18 +1,18 @@
 function salvarNomeUsuario() {
-    let user = document.getElementById('user');
+    let user = document.getElementById("nome");
     let userName = user.value.trim();
     
     if (userName === "") {
         alert("Ei, aventureiro(a), você precisa dizer seu nome antes de entrar!");
     } else {
         alert(`${userName}? Quem se chama assim, com cerveja pode entrar aqui.`);
-        localStorage.setItem("user", userName);
-        window.location.href = '/html/menus.html'; // Redireciona para a página principal
+        localStorage.setItem("nome", userName);
+        window.location.href = '/html/home.html'; // Redireciona para a página principal
     }
 }
 
 function exibirNomeUsuario() {
-    let user = localStorage.getItem("user");
+    let user = localStorage.getItem("nome");
     let result = document.getElementById("result");
     if (user) {
         result.innerHTML = `${user},`;
@@ -20,6 +20,8 @@ function exibirNomeUsuario() {
         result.innerHTML = "Visitante!";
     }
 }
+
+exibirNomeUsuario();
 
 
 function playone() {
@@ -30,7 +32,6 @@ function playone() {
     }
 
 }
-
 
 function pauseone() {
     alert('O taverneiro sobe para a biblioteca, distraído com um livro que fala sobre piratas. Nesse momento, o bardo para de tocar, chega até o bar, pega uma caneca e a enche de cerveja preta em um barril de madeira')

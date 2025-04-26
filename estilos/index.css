@@ -1,8 +1,6 @@
 #container {
     padding: 40px;
-    margin-top: 230px ;
-    display: flex;
-    align-items: center;
+    margin-top: 230px;
     justify-content: center;
     background-color: rgb(230, 148, 41);
     max-width: 400px;
@@ -10,37 +8,42 @@
     border-radius: 30px;
     border: solid 3px rgb(97, 53, 43);
 }
-
 #btn {
-    color: aliceblue;
-    background-color: rgb(96, 52, 42);
-    border-radius: 8px;
-    border: none;
-    width: 180px;
-    height: 35px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    transition: background-color 0.2s, transform 0.2s; /* Transição suave de 0.3 segundos para background-color e transform */
+  color: aliceblue;
+  background-color: rgb(96, 52, 42);
+  border-radius: 8px;
+  border: none;
+  width: 180px;
+  height: 35px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  transition: background-color 0.2s, transform 0.2s; /* Transição suave de 0.3 segundos para background-color e transform */
 }
 
 input:focus {
-    outline: none;
-  }
+  outline: none;
+}
 
-#user {
-    margin: 30px 0 30px;
-    font-size: 15px;
-    text-align: center;
-    border-radius: 8px;
-    border: none;
-    width: 300px;
-    height: 35px;
+#nome {
+  margin: 30px 0 30px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  width: 300px;
+  height: 35px;
 }
 
 #btn:hover {
-    background-color: rgba(138, 79, 66, 0.747);
+  background-color: rgba(2, 2, 2, 0.747);
 }
 
 
-  
+footer > p > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: -32px;
+  top: 695px;
+}
