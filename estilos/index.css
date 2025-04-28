@@ -1,12 +1,13 @@
 #container {
+    display: flex;
     padding: 40px;
-    margin-top: 230px;
     justify-content: center;
     background-color: rgb(230, 148, 41);
     max-width: 400px;
     max-height: 250px;
     border-radius: 30px;
     border: solid 3px rgb(97, 53, 43);
+    
 }
 #btn {
   color: aliceblue;

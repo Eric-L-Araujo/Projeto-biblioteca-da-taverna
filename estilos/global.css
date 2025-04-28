@@ -1,3 +1,6 @@
+
+/* Coloquie o align items center no body dos conteiners, mas o footer deu uma subida. configurar melhor depois. */
+
 html,
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -28,7 +31,7 @@ body {
   font-size: 15px;
   background-color: rgb(97, 53, 43);
   color: white;
-  /* width: 100vw; */
+   /* width: 100vw;  */
   min-height: 92px;
   margin-bottom: 20px;
   text-align: center;
