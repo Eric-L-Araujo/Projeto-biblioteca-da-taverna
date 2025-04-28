@@ -1,7 +1,4 @@
 
-.main-menu {
-    margin: 23px;
-}
 
 h1 {
     text-align: center;
@@ -14,12 +11,16 @@ section > p {
     padding: 5px;
     font-size: 18px;
 }
+
+#first-p {
+    text-align: center;
+}
 /* 
 /* PAGINAS */
 .container {
     padding: 50px;
     /* display: flex
-; */
+; */margin: auto;
     align-items: top;
     flex-direction: column;
     background-color: rgb(247, 232, 212);

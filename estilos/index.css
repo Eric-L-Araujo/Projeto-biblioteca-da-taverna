@@ -1,12 +1,14 @@
 #container {
     display: flex;
-    padding: 40px;
+    padding: 5px 50px;
     justify-content: center;
     background-color: rgb(230, 148, 41);
     max-width: 400px;
     max-height: 250px;
     border-radius: 30px;
     border: solid 3px rgb(97, 53, 43);
+    align-items: center;
+    margin: auto;
     
 }
 #btn {
@@ -40,11 +42,3 @@ input:focus {
   background-color: rgba(2, 2, 2, 0.747);
 }
 
-
-footer > p > a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  margin-left: -32px;
-  top: 695px;
-}
