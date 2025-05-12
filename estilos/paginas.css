@@ -9,7 +9,7 @@ h1 {
 
 section > p {
     padding: 5px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #first-p {
@@ -19,10 +19,9 @@ section > p {
 /* PAGINAS */
 .container {
     padding: 50px;
-    /* display: flex
-; */margin: auto;
+
+    margin: auto;
     align-items: top;
-    flex-direction: column;
     background-color: rgb(247, 232, 212);
     width: 70%;
     /* max-height: 800px; */
@@ -30,6 +29,12 @@ section > p {
     border: solid 3px rgb(200, 101, 45);
     color: rgb(56, 32, 15);
 }
+
+
+
+
+
+
 
 /* MENUS */
 #container {
@@ -43,6 +48,32 @@ section > p {
     border: solid 3px rgb(200, 101, 45);
     color: white;
 }
+
+ #container-sobremim {
+    display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 20px;
+
+}
+
+img {
+    width: 300px;
+    border-radius: 38px;
+}
+
+#texto > p {
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+#texto > h1 {
+    margin: 0;
+    text-align: justify;
+}
+
 
 header > nav > .selecionado {
     background-color: rgb(97, 53, 43); 

@@ -3,7 +3,7 @@ function salvarNomeUsuario() {
     let userName = user.value.trim();
     
     if (userName === "") {
-        alert("Ei, aventureiro(a), você precisa dizer seu nome antes de entrar!");
+        alert("Ei, aventureiro(a), você precisa dizer seu nome antes de entrar! ✋");
     } else {
         alert(`${userName}? Quem se chama assim, com cerveja pode entrar aqui.`);
         localStorage.setItem("nome", userName);
@@ -15,7 +15,7 @@ function exibirNomeUsuario() {
     let user = localStorage.getItem("nome");
     let result = document.getElementById("result");
     if (user) {
-        result.innerHTML = `${user},`;
+        result.innerHTML = ` ✨ ${user} ✨`;
     } else {
         result.innerHTML = "Visitante!";
     }

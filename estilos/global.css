@@ -1,6 +1,3 @@
-
-/* Coloquie o align items center no body dos conteiners, mas o footer deu uma subida. configurar melhor depois. */
-
 html,
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -10,6 +7,7 @@ body {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
+  
 }
 
 header {
@@ -61,17 +59,11 @@ body {
 }
 
 footer > p > .devicon-github-original {
-  font-size: 21px;
-  position: absolute;
-  left: 40px;
+  font-size: 25px;
 }
 
 .footer-container > p > a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  margin-left: -22px;
-  top: 651px;
+    color: rgb(255, 255, 255);
 }
 
 
