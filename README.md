@@ -9,6 +9,6 @@ Um web site simples e de rápida leitura, criado por mim, para ajudar novos aven
 - Sistemas para começar;
 - Jogue conosco.
 
-Eu realmente espero que você goste e que te ajude. 
+Eu realmente espero que você goste e que sirva de ajuda. E caso queira entrar em contato comigo, Fique à vontade.
 
-Enjoy! 
+Até a próxima! 
