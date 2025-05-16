@@ -42,14 +42,16 @@ body {
   padding: 10px 20px;
 }
 
+
 .links {
-  margin-top: 200px;
-  border-radius: 10px;
-  background-color: rgb(241, 220, 213);
-  padding: 13px;
-  border: solid 3px #c8652d;
-  color: black;
-  text-decoration: none;
+    margin-top: 200px;
+    border-radius: 9px;
+    background-color: rgb(241, 220, 213);
+    padding: 12px 23px;
+    border: solid 2px #c8652d;
+    color: black;
+    text-decoration: none;
+    text-align: end;
 }
 
 .links:hover {
