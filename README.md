@@ -1,1 +1,1 @@
-![alt text](imagens/bibliotecario-da-taverna.png)
+![alt text](imagens/biblioteca_da_taverna.png)
