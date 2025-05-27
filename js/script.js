@@ -7,7 +7,7 @@ function salvarNomeUsuario() {
     } else {
         alert(`${userName}? Quem se chama assim, com cerveja pode entrar aqui.`);
         localStorage.setItem("nome", userName);
-        window.location.href = '../html/home.html'; // Redireciona para a página principal
+        window.location.href = 'html/home.html'; // Redireciona para a página principal
     }
 }
 
