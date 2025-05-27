@@ -21,7 +21,10 @@ function exibirNomeUsuario() {
     }
 }
 
-exibirNomeUsuario();
+document.addEventListener("DOMContentLoaded", function() {
+    exibirNomeUsuario();
+});
+
 
 
 // function playone() {
