@@ -21,7 +21,7 @@ main {
 }
 
 body {
-  background-image: url("imagens/inicio.png");
+  background-image: url("../imagens/inicio.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
